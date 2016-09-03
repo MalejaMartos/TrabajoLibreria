@@ -31,7 +31,19 @@ div {
 	overflow:hidden;
 	border-radius:4px;
 	border-color: #61c419;
-	
+	border-style: none;
+}
+
+button{
+
+	margin:20px auto;
+	overflow:hidden;
+	border-width: 8px;
+	border-radius: 4px;
+	border-bottom: #000;
+	display:block; 
+	margin-bottom:5px;
+
 }
 .menu{
 	width:85%;
