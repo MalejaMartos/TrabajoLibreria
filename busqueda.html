@@ -7,10 +7,11 @@
 	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">
 	<script scr="http://code.jquery.com/jquery-latest.js"></script>
 	<link rel="stylesheet" href="https://i.icomoon.io/public/temp/b3ab05f88b/UntitledProject/style.css">
-<style type="text/css">
-input{display:block; margin-bottom:5px;}
-#contenedor{text-align:center; margin:0 auto; width:300px;  padding:5px;}
-</style>
+
+		<style>
+		input{display:block; margin-bottom:5px;}
+		#contenedor{text-align:center; margin:0 auto; width:300px;  padding:5px;}
+		</style>
 
 </head>
 <body>
@@ -33,34 +34,55 @@ input{display:block; margin-bottom:5px;}
 	</header>
 
 	<div>
-<<<<<<< HEAD
+
 		<div class="body">
 			<form method="get" action="buqueda.html">
 				Buscador 
-				<br/><input type="text" name="buscador1"><button type="button">¡Presione aquí!</button>
-
-				<br/>
-			</form>
-		</div>
-=======
-
-		<div class="opcionGeneral">
-			<form method="get" action="buqueda.html">
-				Buscador 
 				<br/><input type="text" name="buscador1">
+
+				<!--Boton para realizar la busqueda -->
+				<button type="button">Buscar</button>
+
+				<br/>
+			</form>
+		</div>
+
+
+		<div class="opcionGeneral">
+			<form method="get" action="buqueda.html">
+				Valorar 
+				<br/><input type="text" name="buscador1">
+
+
+				<!--Esto es un combobox para mostrar los libros que se hara con AJAX-->
+				<select name="mostrarLibros" >
+					<option selected> -------------</option>
+				</select>
+
+				<!--Esto es un combobox para dar la valoracion de 1 a 5-->
+				<select name="valoracion">
+					<option selected>-----</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+				</select>
+
+				<!--Esto es un boton para enviar la valoracion-->
+				<button type="button">Enviar</button>
 				<br/>
 			</form>
 		</div>
 
 		<div class="opcionGeneral">
 			<form method="get" action="buqueda.html">
-				Buscador 
+				Review 
 				<br/><input type="text" name="buscador1">
 				<br/>
 			</form>
 		</div>
 		
->>>>>>> 935b787098d2d5d471e1335b153362b3d4182118
 	</div>
 
 	<script type="text/js" src="busca.js"></script>
