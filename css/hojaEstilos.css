@@ -1,0 +1,54 @@
+
+/*@charset "utf-8"*/
+/* CSS Document */
+/*solo casos especificos selector Universal*/
+/*
+colores gradientes
+http://www.colorzilla.com/gradient-editor/
+iconos 
+https://icomoon.io/app/#/select
+* {
+	margin: 0;
+	padding: 0;
+}*/
+/*h1,h2,h3{
+	color: blue;
+}/*
+
+/*para cambiar tama;o, color a cada etiqueta*/
+h5{
+	color: aqua;
+	font-size: 30px;
+}
+h4,h5,h6{
+	color: rgba(49,163,239,.5);
+}
+/*selectores 
+descedentes, ponemos de los parrafos los elentos a cambiar*/
+p a{
+	color: red;
+}
+p .yellow{
+	color: green;
+}
+a {
+	color: green;
+}
+/*unidad de medida*/
+/*relativas: medidas flexibles porque se adaptan
+px: adsolutas valor fijo
+em: dise;o responsi representa un valor del 
+elemento padre al tama;o fuente por defecto es 16px
+rem
+%: se utliza para las cajas;
+*/
+/*body{
+	font-size:16px ;
+}
+p {
+	font-size: 1em;
+}
+div{
+	font-size: 1em;
+
+}*/
