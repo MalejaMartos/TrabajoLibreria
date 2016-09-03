@@ -25,6 +25,14 @@ nav{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b8b8b', endColorstr='#717171',GradientType=0 ); /* IE6-9 */
 
 }
+div {
+	width:1000px;
+	margin:20px auto;
+	overflow:hidden;
+	border-radius:4px;
+	border-color: #61c419;
+	
+}
 .menu{
 	width:85%;
 	display:table;
@@ -113,7 +121,7 @@ nav{
 	color:#000;
 	text-decoration:none;
 }
-.menu1 {
+.opcionGeneral {
 	width:85%;
 	display:table;
 	table-layout:fixed;
@@ -121,7 +129,7 @@ nav{
 	transition:all .5s ease;
 }
 
-.menu1 div{
+.opcionGeneral form{
 	display:table-cell;
 	overflow:hidden;
 	width: 100%;
@@ -129,7 +137,16 @@ nav{
 	border-left: 1px solid rgba(255,255,255,.2);
 }
 
-.menu1 div form{
+.opcionGeneral input{
+	width: 100%;
+	height:auto;
+	border-radius:50px;
+	border: none;
+	border-bottom: 1px solid #858585;
+	padding: 0px 10px 0px 25px;
+	box-sizing: border-box;
+	height: 22px;
+	
 	color: #fff;
 	display:block;
 	font-family:"Myrian pro", Arial;
