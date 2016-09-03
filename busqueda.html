@@ -35,6 +35,47 @@
 				Buscador 
 				<br/><input type="text" name="buscador"><button type="button">¡Presione aquí!</button>
 
+		<div class="body">
+			<form method="get" action="buqueda.html">
+				Buscador 
+				<br/><input type="text" name="buscador1">
+
+				<!--Boton para realizar la busqueda -->
+				<button type="button">Buscar</button>
+
+				<br/>
+			</form>
+		</div>
+
+		<div class="opcionGeneral">
+			<form method="post" action="buqueda.html">
+				Buscador 
+				<br/><input type="text" name="buscador">
+
+
+		<div class="opcionGeneral">
+			<form method="get" action="buqueda.html">
+				Valorar 
+				<br/><input type="text" name="buscador1">
+
+
+				<!--Esto es un combobox para mostrar los libros que se hara con AJAX-->
+				<select name="mostrarLibros" >
+					<option selected> -------------</option>
+				</select>
+
+				<!--Esto es un combobox para dar la valoracion de 1 a 5-->
+				<select name="valoracion">
+					<option selected>-----</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+				</select>
+
+				<!--Esto es un boton para enviar la valoracion-->
+				<button type="button">Enviar</button>
 				<br/>
 			</form>
 		</div>
@@ -46,7 +87,6 @@
 				<br/>
 			</form>
 		</div>
-
 		<div class="opcionGeneral">
 			<form method="post" action="buqueda.html">
 				Buscador 
@@ -54,13 +94,13 @@
 				<br/>
 			</form>
 		</div>
-		<div class="opcionGeneral">
 			<form method="post" action="buqueda.html">
-				Buscador 
+				Review 
 				<br/><input type="text" name="buscador">
 				<br/>
 			</form>
 		</div>
+		
 	</div>
 
 	<script type="text/js" src="busca.js"></script>
