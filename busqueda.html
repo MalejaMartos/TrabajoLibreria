@@ -32,20 +32,20 @@
 
 		<div class="opcionGeneral">
 			<form method="get" action="buqueda.html">
-				Buscador 
-				<br/><input class="marcaDeAgua" type="text" name="buscador">
-
+				<h3>Buscador</h3>
+				<br/><input class="marcaDeAgua" type="text" name="buscador" placeholder="Buscar por Titulo, Autor o Palabra Clave.">
+				
 				<!--Boton para realizar la busqueda -->
 				<button type="button">Buscar</button>
 
 				<br/>
 			</form>
 		</div>
+
 		<div class="opcionGeneral">
 			<form method="get" action="buqueda.html">
-				Valorar 
-				<br/><input type="text" name="buscador">
-
+				<h3>Valorar</h3>
+				<br/>
 
 				<!--Esto es un combobox para mostrar los libros que se hara con AJAX-->
 				<select name="mostrarLibros" >
@@ -70,12 +70,12 @@
 
 		<div class="opcionGeneral" >
 			<form method="post" action="buqueda.html" >
-				Review 
-				<br/><input type="text" name="buscador">
+				<h3>Review</h3> 
+				<br/>
 
 					<!--Campo de texto para poner un review-->
 					<textarea rows="5" cols="50" id="aboutDescription"
-	    			style="resize: none;"></textarea>
+	    			style="resize: none;" placeholder="Agregue su comentario sobre el libro de seleccion."></textarea>
 
 	    			<!--Esto es un combobox para mostrar los libros-->
 					<select name="mostrarLibros" >
