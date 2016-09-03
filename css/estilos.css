@@ -27,7 +27,7 @@ nav{
 }
 div {
 	width:1000px;
-	margin:20px auto;
+	margin:30px auto;
 	overflow:hidden;
 	border-radius:4px;
 	border-color: #61c419;
@@ -144,27 +144,35 @@ button{
 .opcionGeneral form{
 	display:table-cell;
 	overflow:hidden;
-	width: 100%;
-	border-right:1px solid #5c5c5c;
+	width: 400%;
+	border-right:1px solid rgba(255,255,255,.2);
 	border-left: 1px solid rgba(255,255,255,.2);
 }
 
 .opcionGeneral input{
 	width: 100%;
 	height:auto;
+	margin: auto;
+	opacity: 0.6;
 	border-radius:50px;
 	border: none;
+	background: #fff;
+	box-shadow: none;
 	border-bottom: 1px solid #858585;
-	padding: 0px 10px 0px 25px;
+	height: 30px;
 	box-sizing: border-box;
-	height: 22px;
-	
-	color: #fff;
 	display:block;
+	padding: 10px 0;
 	font-family:"Myrian pro", Arial;
 	font-size: 14px;
-	padding: 10px 0;
 	text-align:center;
 	text-decoration: none;
 	text-shadow: 1px 1px 0px rgba(0,0,0,.3);
+	
+}
+.marcaDeAgua{
+	width: 100%;
+	height:auto;
+	margin: auto;
+	opacity: 0.6;
 }
