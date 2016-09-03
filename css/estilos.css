@@ -113,3 +113,29 @@ nav{
 	color:#000;
 	text-decoration:none;
 }
+.menu1 {
+	width:85%;
+	display:table;
+	table-layout:fixed;
+	float:left;
+	transition:all .5s ease;
+}
+
+.menu1 div{
+	display:table-cell;
+	overflow:hidden;
+	width: 100%;
+	border-right:1px solid #5c5c5c;
+	border-left: 1px solid rgba(255,255,255,.2);
+}
+
+.menu1 div form{
+	color: #fff;
+	display:block;
+	font-family:"Myrian pro", Arial;
+	font-size: 14px;
+	padding: 10px 0;
+	text-align:center;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px rgba(0,0,0,.3);
+}
