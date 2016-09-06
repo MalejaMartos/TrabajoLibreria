@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	background: 
 }
 
 ul, ol {
@@ -61,7 +62,7 @@ border-left: none;
 
 
 .opcionGeneral {
-	width:85%;
+	width:100%;
 	display:table;
 	table-layout:fixed;
 	float:left;
