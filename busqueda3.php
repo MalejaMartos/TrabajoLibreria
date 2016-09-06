@@ -1,5 +1,5 @@
 <?php
-	echo 'sisas';
+	
  	require_once('conexion.php'); 	
  	$consulta = "Select * from libro;";
  	$respuesta = mysql_query($consulta) or die ("consulta no exitosa");
